@@ -1,0 +1,50 @@
+{
+ "Benign": {
+  "n_iot": 5000,
+  "n_ent": 5000,
+  "domain_auc": 1.0,
+  "ks_mean": 0.556064705882353,
+  "ks_median": 0.5437000000000001,
+  "n_features_ks_gt_0.5": 39
+ },
+ "Brute Force": {
+  "n_iot": 2536,
+  "n_ent": 4853,
+  "domain_auc": 1.0,
+  "ks_mean": 0.7906125454382217,
+  "ks_median": 0.8395110410094637,
+  "n_features_ks_gt_0.5": 59
+ },
+ "DDoS": {
+  "n_iot": 5000,
+  "n_ent": 5000,
+  "domain_auc": 0.9993324432576769,
+  "ks_mean": 0.7799911764705881,
+  "ks_median": 0.8397,
+  "n_features_ks_gt_0.5": 61
+ },
+ "DoS": {
+  "n_iot": 5000,
+  "n_ent": 5000,
+  "domain_auc": 1.0,
+  "ks_mean": 0.8338558823529411,
+  "ks_median": 0.8542000000000001,
+  "n_features_ks_gt_0.5": 67
+ },
+ "Recon": {
+  "n_iot": 5000,
+  "n_ent": 5000,
+  "domain_auc": 0.9999999999999999,
+  "ks_mean": 0.841955882352941,
+  "ks_median": 0.9229,
+  "n_features_ks_gt_0.5": 67
+ },
+ "all": {
+  "n_iot": 5000,
+  "n_ent": 5000,
+  "domain_auc": 1.0,
+  "ks_mean": 0.5537852941176471,
+  "ks_median": 0.5179,
+  "n_features_ks_gt_0.5": 39
+ }
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or these results, please cite it as below."
+title: "crosssilo-fl-ids: cross-silo federated intrusion detection between IoT and enterprise networks"
+version: 1.0.0
+date-released: 2026-10-20
+license: MIT
+repository-code: "https://github.com/AbdulHasib-IRE/crosssilo-fl-ids"
+authors:
+  - family-names: Hasib
+    given-names: Abdul
+    orcid: "https://orcid.org/0009-0000-6630-4240"
+    affiliation: "University of Frontier Technology, Bangladesh"
+  - family-names: Das
+    given-names: Saurav Chandra
+    orcid: "https://orcid.org/0009-0007-5191-6771"
+    affiliation: "University of Frontier Technology, Bangladesh"
+  - family-names: Ashiqussalehin
+    given-names: Md.
+    orcid: "https://orcid.org/0009-0004-7528-5802"
+    affiliation: "University of Frontier Technology, Bangladesh"

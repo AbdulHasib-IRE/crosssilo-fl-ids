@@ -1,0 +1,43 @@
+{
+ "written_utc": "2026-10-18T10:11:21",
+ "written_before_any_federated_run": true,
+ "main_task": [
+  "Benign",
+  "Brute Force",
+  "DDoS",
+  "DoS",
+  "Recon"
+ ],
+ "sensitivity_task": "Web added (6 families)",
+ "partition_main": "Dirichlet alpha=0.5, 10 clients per domain, drawn separately in each domain with the run seed; cross-silo clients = union of the two within-domain client sets (identical clients)",
+ "partition_reference": "IID, FedAvg only",
+ "partition_excluded": "source-IP clients: enterprise sample has 23 source IPs, 9 of 10 IP clients hold a single class",
+ "H1": "cross-domain transfer loses >= 10 pp macro-F1 in both directions (centralised FA-MLP)",
+ "H2": "kept as stated: cross-silo FedAvg raises each domain test macro-F1 by >= 1 pp over within-domain FedAvg (Holm p<0.05)",
+ "H2b_added": "non-inferiority: cross-silo FedAvg is within 1 pp of within-domain FedAvg on each domain (TOST, alpha 0.05, 10 paired seeds). Added after the centralised references (pooling: +0.19 pp IoT; enterprise at 0.9993 ceiling), before any federated run.",
+ "H3": "under cross-silo training, at least one of FedProx/SCAFFOLD/FedDyn exceeds FedAvg (paired t, Holm)",
+ "H4": "rule ranking differs between within-domain and cross-silo training",
+ "lr_selection": "seed 42, random split, Dirichlet 0.5, VALIDATION only (test not computed): mean of val macro-F1 over rounds 80/90/100; cross-silo = mean of the two domains; chosen per rule and per setting; FedProx uses the FedAvg lr; differences < 0.0005 go to the smaller lr; the same lr is used on the time split",
+ "fixed": {
+  "rounds": 100,
+  "local_epochs": 1,
+  "batch": 256,
+  "momentum": 0.9,
+  "clip_norm": 1.0,
+  "mu": 0.01,
+  "dyn_alpha": 0.001
+ },
+ "score": "test macro-F1 averaged over rounds 80/90/100, per domain",
+ "seeds": [
+  42,
+  123,
+  456,
+  789,
+  1011,
+  2024,
+  7,
+  99,
+  314,
+  2718
+ ]
+}

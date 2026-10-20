@@ -1,0 +1,20 @@
+{
+ "ent": {
+  "fedavg": 0.1,
+  "feddyn": 0.03,
+  "scaffold": 0.03,
+  "fedprox": 0.1
+ },
+ "iot": {
+  "fedavg": 0.1,
+  "feddyn": 0.03,
+  "scaffold": 0.03,
+  "fedprox": 0.1
+ },
+ "xsilo": {
+  "fedavg": 0.3,
+  "feddyn": 0.03,
+  "scaffold": 0.03,
+  "fedprox": 0.3
+ }
+}

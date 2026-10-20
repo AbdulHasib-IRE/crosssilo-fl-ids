@@ -1,0 +1,134 @@
+{
+ "ent_random": {
+  "counts": {
+   "train": {
+    "Benign": 34986,
+    "Brute Force": 4853,
+    "DDoS": 35000,
+    "DoS": 35000,
+    "Recon": 34523,
+    "Web": 73
+   },
+   "val": {
+    "Benign": 7516,
+    "Brute Force": 1040,
+    "DDoS": 7500,
+    "DoS": 7500,
+    "Recon": 5418,
+    "Web": 15
+   },
+   "test": {
+    "Benign": 7498,
+    "Brute Force": 1040,
+    "DDoS": 7500,
+    "DoS": 7500,
+    "Recon": 10059,
+    "Web": 16
+   }
+  },
+  "n": {
+   "train": 144435,
+   "val": 28989,
+   "test": 33613
+  }
+ },
+ "ent_time": {
+  "counts": {
+   "train": {
+    "Benign": 35000,
+    "Brute Force": 4853,
+    "DDoS": 35000,
+    "DoS": 35000,
+    "Recon": 35000,
+    "Web": 72
+   },
+   "val": {
+    "Benign": 7361,
+    "Brute Force": 1040,
+    "DDoS": 7500,
+    "DoS": 7500,
+    "Recon": 44,
+    "Web": 16
+   },
+   "test": {
+    "Benign": 7349,
+    "Brute Force": 1040,
+    "DDoS": 7500,
+    "DoS": 7500,
+    "Recon": 112,
+    "Web": 16
+   }
+  },
+  "n": {
+   "train": 144925,
+   "val": 23461,
+   "test": 23517
+  }
+ },
+ "iot_random": {
+  "counts": {
+   "train": {
+    "Benign": 35059,
+    "Brute Force": 2536,
+    "DDoS": 35088,
+    "DoS": 35095,
+    "Recon": 34991,
+    "Web": 6297
+   },
+   "val": {
+    "Benign": 7496,
+    "Brute Force": 541,
+    "DDoS": 7454,
+    "DoS": 7452,
+    "Recon": 7488,
+    "Web": 1354
+   },
+   "test": {
+    "Benign": 7445,
+    "Brute Force": 542,
+    "DDoS": 7458,
+    "DoS": 7451,
+    "Recon": 7521,
+    "Web": 1349
+   }
+  },
+  "n": {
+   "train": 149066,
+   "val": 31785,
+   "test": 31766
+  }
+ },
+ "iot_time": {
+  "counts": {
+   "train": {
+    "Benign": 35000,
+    "Brute Force": 2533,
+    "DDoS": 35000,
+    "DoS": 34998,
+    "Recon": 35000,
+    "Web": 6300
+   },
+   "val": {
+    "Benign": 7341,
+    "Brute Force": 538,
+    "DDoS": 7271,
+    "DoS": 7499,
+    "Recon": 7426,
+    "Web": 1340
+   },
+   "test": {
+    "Benign": 7373,
+    "Brute Force": 542,
+    "DDoS": 7179,
+    "DoS": 7488,
+    "Recon": 7425,
+    "Web": 1341
+   }
+  },
+  "n": {
+   "train": 148831,
+   "val": 31415,
+   "test": 31348
+  }
+ }
+}

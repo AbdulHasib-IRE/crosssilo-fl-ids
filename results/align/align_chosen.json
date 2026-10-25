@@ -1,0 +1,12 @@
+{
+ "rule": "seed 42, random split, Dirichlet 0.5, validation only; mean val macro-F1 over rounds 80/90/100; cross-silo = mean of the two silos; differences < 0.0005 go to the smaller value",
+ "lr_alignment": 0.3,
+ "chosen": {
+  "coral": 0.01,
+  "mmd": 0.1,
+  "bn_shared": 0.1,
+  "fedbn": 0.1,
+  "bn_iot": 0.1,
+  "bn_ent": 0.1
+ }
+}
